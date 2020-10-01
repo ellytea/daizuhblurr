@@ -1,0 +1,140 @@
+:root {
+  --blue-grey-050:#f0f4f8;
+  --blue-grey-100:#d9e2ec;
+  --blue-grey-200:#bcccdc;
+  --blue-grey-300:#9fb3c8;
+  --blue-grey-400:#829ab1;
+  --blue-grey-500:#627d98;
+  --blue-grey-600:#486581;
+  --blue-grey-700:#334e68;
+  --blue-grey-800:#243b53;
+  --blue-grey-900:#102a43;
+  --hot-pink:#ff2090;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  color: var(--blue-grey-900);
+  background: var(--blue-grey-100);
+}
+
+main {
+  max-width: max-content;
+  margin: 2% 2% auto;
+  padding: 1.5em;
+  background-color: #fff;
+  border: 2px solid var(--blue-grey-200);
+  border-radius: 8px;
+}
+
+#pg-entry{
+  max-width: 68%;
+  margin: 2% 2% auto 3%;
+}
+
+.month-indicator {
+  color: var(--blue-grey-700);
+  text-align: center;
+  font-weight: 500;
+}
+
+.date-grid {
+  margin-top: 0.5em;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#title{
+  font-family: 'Cabin Sketch', cursive;
+  position: relative;
+  bottom: 29px;
+  left: 17px;
+}
+
+#title-end{
+  font-family: 'Cabin Sketch', cursive;
+  position: relative;
+  bottom: 29px;
+  right: 11px;
+}
+
+article{
+display: flex;
+}
+
+#quote-sec{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+aside{
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 20%;
+  height: 100%;
+}
+
+#quote-img{
+  width:100%;
+  height: auto;
+}
+
+#title-img{
+  width: 3%;
+}
+
+.date-grid.block {
+  width: auto;
+  background-color: transparent;
+  color: var(--blue-grey-600);
+}
+
+div.block {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--blue-grey-050);
+  color: var(--blue-grey-700);
+  text-align: center;
+  margin:3px 5px;
+  padding: 20px 10px;
+  border-radius: 8px;
+}
+
+.q-link {
+  color: var(--hot-pink);
+  text-decoration: none;
+}
+
+.date-time{
+  font-size: .65em;
+}
+
+.return-btn{
+  background: var(--blue-grey-700);
+  border: solid 2px var(--blue-grey-200);
+  border-radius: 8px;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: var(--blue-grey-050);
+  position: relative;
+  top: 40px;
+  margin-left: 2%;
+}
