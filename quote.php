@@ -18,7 +18,7 @@ if($results === false){
 } else {
 	$article = null;
 }
-
+ 
 ?>
 
 <?php require 'includes/header.php'; ?>

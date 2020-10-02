@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 		die('An entry is required');
 	}
 
-	if(empty($errors)){
+	if(empty($errors)){ 
 
 
 	$conn = getDB();

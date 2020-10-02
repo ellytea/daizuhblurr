@@ -18,7 +18,7 @@ if($results === false){
 <?php require 'includes/header.php'; ?>
 
 <h1><span id="title">Da</span><img id="title-img" src="https://cdn.filestackcontent.com/4Yb857K3Q6uNw8A80H0M"><span id="title-end">zUhBlur</span></h1>
-
+ 
 <main>
   <div class="calendar">
     <div class="month-indicator">
